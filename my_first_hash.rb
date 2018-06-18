@@ -1,9 +1,9 @@
 def my_hash
-  your_hash = {"first_name" => "Yan", "last_name" => "Wang"}
+  your_hash = {"first name" => "Yan", "last name" => "Wang"}
 end
 
 def shipping_manifest
-  the_manifest = {"whale_bone_corsets" => 5, "porcelain" => 2, "oil paintings" => 3}
+  the_manifest = {"whale bone corsets" => 5, "porcelain" => 2, "oil paintings" => 3}
 end
 
 def retrieval
@@ -14,6 +14,7 @@ def retrieval
                  }
 
   # Look up the value of the "oil paintings" key in the shipping_manifest hash below
+  shipping_manifest["oil paintings"]
 
 end
 
